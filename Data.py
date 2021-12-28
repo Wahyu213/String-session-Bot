@@ -53,7 +53,7 @@ By @zenfrans
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to retrieve pyrograms and telethon string sessions by @bluewhalebots
+A telegram bot to retrieve pyrograms and telethon string sessions by @nbzoning
 
 Group Support : [Gabung](https://t.me/OkaeriUserbot)
 
