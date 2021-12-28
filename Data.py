@@ -31,7 +31,10 @@ By @zenfrans
         [
             InlineKeyboardButton("How to use me❔", callback_data="help"),
             InlineKeyboardButton("Abou", callback_data="about")
+      ],
+        [InlineKeyboardButton("Other bot info", url="https://t.me/nbzoning")],
     ]
+
 
     # Help Message
     HELP = """
