@@ -6,8 +6,6 @@ class Data:
     START = """
 Hello {}
 
-Welcome to {}
-
 If you don't trust this bot,
 1) don't read this message
 2) block bot or delete chat
@@ -18,23 +16,21 @@ By @zenfrans
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Home 🏠", callback_data="home")]
+        [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
+        [InlineKeyboardButton(text="Home", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("Start Generating Session", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+        [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
         [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/zenfrans")],
         [
             InlineKeyboardButton("How to use me❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ Other bot info ♥", url="https://t.me/nbzoning")],
+            InlineKeyboardButton("Abou", callback_data="about")
     ]
 
     # Help Message
