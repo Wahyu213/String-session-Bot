@@ -29,8 +29,8 @@ Managed By @zenfrans
         [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
         [InlineKeyboardButton("Maintaned By", url="https://t.me/zenfrans")],
         [
-            InlineKeyboardButton("How to use me❔", callback_data="help"),
-            InlineKeyboardButton("Abou", callback_data="about")
+            InlineKeyboardButton("How to use me", callback_data="help"),
+            InlineKeyboardButton("About", callback_data="about")
       ],
         [InlineKeyboardButton("Other bot info", url="https://t.me/nbzoning")],
     ]
