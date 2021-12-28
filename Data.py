@@ -27,7 +27,7 @@ Managed By @zenfrans
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("Start Generating Session", callback_data="generate")],
-        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/zenfrans")],
+        [InlineKeyboardButton("Maintaned By", url="https://t.me/zenfrans")],
         [
             InlineKeyboardButton("How to use me❔", callback_data="help"),
             InlineKeyboardButton("Abou", callback_data="about")
